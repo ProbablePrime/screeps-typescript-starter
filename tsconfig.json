@@ -6,6 +6,13 @@
     "baseUrl": "src/",
     "sourceMap": true,
     "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "emitDecoratorMetadata": true,
+    "noImplicitAny": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "suppressImplicitAnyIndexErrors": true,
     "experimentalDecorators": true,
     "noImplicitReturns": true,
     "allowSyntheticDefaultImports": true,
@@ -13,5 +20,10 @@
   },
   "exclude": [
     "node_modules"
-  ]
+  ],
+  "paths": {
+    "*": [
+      "./types/*"
+    ]
+  }
 }

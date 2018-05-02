@@ -1,22 +1,24 @@
 {
   "compilerOptions": {
-    "module": "es2015",
-    "target": "es5",
-    "outDir": "dist",
-    "baseUrl": "src/",
-    "sourceMap": true,
+    "declaration": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "noImplicitAny": true,
     "noFallthroughCasesInSwitch": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "suppressImplicitAnyIndexErrors": true,
-    "experimentalDecorators": true,
     "noImplicitReturns": true,
     "allowSyntheticDefaultImports": true,
     "allowUnreachableCode": false,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "module": "es2015",
+    "target": "es5",
+    "outDir": "dist",
+    "baseUrl": ".",
     "typeRoots": [
       "node_modules/@types"
     ],
@@ -27,6 +29,7 @@
     }
   },
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "dist"
   ]
 }

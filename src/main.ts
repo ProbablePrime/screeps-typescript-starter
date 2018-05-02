@@ -1,4 +1,5 @@
-import { Tasks } from 'creep-tasks';
+//tslint:disable-next-line:import-name
+import Tasks from 'creep-tasks';
 
 export const loop = () => {
   // tslint:disable-next-line:no-console

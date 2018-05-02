@@ -40,7 +40,7 @@
     "typescript": "^2.8.1"
   },
   "dependencies": {
-    "creep-tasks": "git+https://github.com/ProbablePrime/creep-tasks.git"
+    "creep-tasks": "^1.1.0"
   },
   "prettier": {
     "parser": "typescript",

@@ -1,3 +1,7 @@
+export function cleanUp() {
+  clearDead();
+}
+
 // Automatically delete memory of missing creeps
 export function clearDead() {
   Object.keys(Memory.creeps).forEach(name => {

@@ -5,4 +5,12 @@ import { cleanUp } from './memory';
 export const loop = () => {
   // tslint:disable-next-line:no-console
   cleanUp();
+
+  Object.values(Game.rooms).filter(room => {
+    if (!room.controller) {
+      return false;
+    }
+
+    return room.controller.my;
+  });
 };

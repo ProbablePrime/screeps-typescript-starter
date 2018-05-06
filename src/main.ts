@@ -1,5 +1,5 @@
 //tslint:disable-next-line:import-name
-import Tasks from 'creep-tasks';
+//import Tasks from 'creep-tasks';
 import { cleanUp } from './memory';
 
 export const loop = () => {

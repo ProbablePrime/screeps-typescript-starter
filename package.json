@@ -40,7 +40,8 @@
     "typescript": "^2.8.1"
   },
   "dependencies": {
-    "creep-tasks": "^1.1.0"
+    "creep-tasks": "^1.1.0",
+    "typescript-memoize": "^1.0.0-alpha.3"
   },
   "prettier": {
     "parser": "typescript",

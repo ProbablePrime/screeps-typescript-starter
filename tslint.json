@@ -4,6 +4,10 @@
         "node_modules/tslint-microsoft-contrib"
     ],
     "rules": {
+        // Ease of use overrides
+        "no-parameter-properties": false,
+
+        // Begin standard boilerplate rules
         "no-multiline-string": false,
         "arrow-parens": [true, "ban-single-arg-parens"],
         "max-file-line-count": [true, 600],

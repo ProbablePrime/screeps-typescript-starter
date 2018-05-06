@@ -16,7 +16,7 @@
     "moduleResolution": "node",
     "sourceMap": true,
     "module": "es2015",
-    "target": "es5",
+    "target": "es6",
     "outDir": "dist",
     "baseUrl": ".",
     "typeRoots": [
@@ -26,7 +26,10 @@
       "*": [
         "./types/*"
       ]
-    }
+    },
+    "lib": [
+      "esnext"
+    ]
   },
   "exclude": [
     "node_modules",
